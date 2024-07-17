@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website - v2.0<br/>
-  <a href="https://react-portfolio-eight-bice.vercel.app/" target="_blank">soumyajit.tech</a>
+  <a href="https://react-portfolio-eight-bice.vercel.app/" target="_blank">Muhammad_Noman</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="/src/Assets/bannerImg.png" />
