@@ -34,6 +34,7 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
+        
         <Navbar.Brand href="/" className="d-flex">
           <img src={logo} className="logo" alt="brand" />
         </Navbar.Brand>
@@ -47,8 +48,11 @@ function NavBar() {
           <span></span>
           <span></span>
         </Navbar.Toggle>
+
         <Navbar.Collapse id="responsive-navbar-nav">
+
           <Nav className="ms-auto" defaultActiveKey="#home">
+
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
@@ -86,9 +90,7 @@ function NavBar() {
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
-            </Nav.Item>
-
-            
+            </Nav.Item>   
             
           </Nav>
         </Navbar.Collapse>
