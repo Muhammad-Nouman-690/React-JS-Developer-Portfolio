@@ -75,6 +75,11 @@ button:focus {
 /* --------- */
 /* Navbar Section  */
 /* --------- */
+
+.navbar .container {
+  flex-wrap: nowrap !important;
+}
+
 .sticky {
   background-color: #1b1a2ea9 !important;
   transition: all 0.3s ease-out 0s !important;
