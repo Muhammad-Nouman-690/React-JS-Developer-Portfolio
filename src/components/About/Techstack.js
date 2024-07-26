@@ -1,5 +1,5 @@
 import React from "react";
-import { Col, Row } from "react-bootstrap";
+import { Col, Row, OverlayTrigger, Tooltip } from "react-bootstrap";
 import {
   DiJavascript1,
   DiReact,
@@ -19,56 +19,104 @@ import {
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      
       <Col xs={4} md={2} className="tech-icons">
-        <DiHtml5 />
+        <OverlayTrigger
+          placement="top"
+          overlay={<Tooltip id="tooltip-html5">HTML5</Tooltip>}
+        >
+          <div><DiHtml5 /></div>
+        </OverlayTrigger>
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
-        <DiCss3 />
+        <OverlayTrigger
+          placement="top"
+          overlay={<Tooltip id="tooltip-css3">CSS3</Tooltip>}
+        >
+          <div><DiCss3 /></div>
+        </OverlayTrigger>
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
-        <DiBootstrap />
+        <OverlayTrigger
+          placement="top"
+          overlay={ <Tooltip id="tooltip-bootstrap" > Bootstrap</Tooltip>}
+        >
+          <div><DiBootstrap /></div>
+        </OverlayTrigger>
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
-        <SiTailwindcss />
-      </Col>
-      
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
-      </Col>
-
-      <Col xs={4} md={2} className="tech-icons">
-        <SiTypescript />
-      </Col>
-      
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
+        <OverlayTrigger
+          placement="top"
+          overlay={<Tooltip id="tooltip-tailwindcss">Tailwind CSS</Tooltip>}
+        >
+          <div><SiTailwindcss /></div>
+        </OverlayTrigger>
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <OverlayTrigger
+          placement="top"
+          overlay={<Tooltip id="tooltip-javascript">JavaScript</Tooltip>}
+        >
+          <div><DiJavascript1 /></div>
+        </OverlayTrigger>
       </Col>
-      
+
       <Col xs={4} md={2} className="tech-icons">
-        <DiWordpress />
+        <OverlayTrigger
+          placement="top"
+          overlay={<Tooltip id="tooltip-typescript">TypeScript</Tooltip>}
+        >
+          <div><SiTypescript /></div>
+        </OverlayTrigger>
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
+        <OverlayTrigger
+          placement="top"
+          overlay={<Tooltip id="tooltip-nodejs">Node.js</Tooltip>}
+        >
+          <div><DiNodejs /></div>
+        </OverlayTrigger>
       </Col>
-      
-      
 
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <OverlayTrigger
+          placement="top"
+          overlay={<Tooltip id="tooltip-react">React</Tooltip>}
+        >
+          <div><DiReact /></div>
+        </OverlayTrigger>
       </Col>
 
-      
-      
-      
+      <Col xs={4} md={2} className="tech-icons">
+        <OverlayTrigger
+          placement="top"
+          overlay={<Tooltip id="tooltip-wordpress">WordPress</Tooltip>}
+        >
+          <div><DiWordpress /></div>
+        </OverlayTrigger>
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <OverlayTrigger
+          placement="top"
+          overlay={<Tooltip id="tooltip-mongodb">MongoDB</Tooltip>}
+        >
+          <div><DiMongodb /></div>
+        </OverlayTrigger>
+      </Col>
+
+      <Col xs={4} md={2} className="tech-icons">
+        <OverlayTrigger
+          placement="top"
+          overlay={<Tooltip id="tooltip-firebase">Firebase</Tooltip>}
+        >
+          <div><SiFirebase /></div>
+        </OverlayTrigger>
+      </Col>
     </Row>
   );
 }
