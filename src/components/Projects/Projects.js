@@ -47,7 +47,7 @@ function Projects() {
               isBlog={false}
               title="Professional Engineering Services Website"
               description="Explore a professionally designed WordPress website dedicated to engineering services. This site features a clean and intuitive layout, showcasing a range of engineering solutions and expertise. Designed with user experience in mind, it highlights the company's capabilities, projects, and services, offering visitors a comprehensive view of what the engineering team has to offer. Visit now to learn more about their professional engineering solutions."
-              demoLink="https://z-engr.com/"
+              demoLink="http://zenith-engr.com/"
             />
           </Col>
 
