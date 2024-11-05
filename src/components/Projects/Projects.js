@@ -27,7 +27,7 @@ function Projects() {
               isBlog={false}
               title="Modern TypeScript E-Commerce Web App"
               description="Explore a modern E-Commerce experience powered by React and TypeScript. This web application showcases seamless navigation, responsive design, and providing a user-friendly interface for online shopping. Dive into a variety of products with detailed descriptions and easy checkout options. Visit now to experience the future of online shopping."
-              demoLink="https://vite-ecommerce-app-peach.vercel.app/"
+              demoLink="https://vite-ecommerce-app-rouge.vercel.app/"
             />
           </Col>
 
