@@ -71,7 +71,15 @@ function Projects() {
             />
           </Col>
 
-       
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={editor}
+              isBlog={false}
+              title="Anas Surgicals Website"
+              description="Anas Surgicals is a professional website showcasing a comprehensive range of surgical products and services. Developed using WordPress, the project features a responsive and user-friendly design, product categorization, and seamless navigation, providing visitors with an enhanced browsing experience."
+              demoLink="https://anassurgicals.com/"
+            />
+          </Col>
 
         </Row>
       </Container>
